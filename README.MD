@@ -1,3 +1,4 @@
+### 📊 Dashboard available at https://nabilboutiyarzist-end-to-end-project.streamlit.app/
 ### How to Run the Repository
 
 * Create and activate a local virtual environment (`python -m venv venv`, then `source venv/bin/activate` on macOS/Linux or `venv\\Scripts\\activate` on Windows) and install the dependencies: `pip install -r requirements.txt`.
