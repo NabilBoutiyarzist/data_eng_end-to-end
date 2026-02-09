@@ -1,0 +1,30 @@
+[0m15:07:46.314479 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002083C23BFE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002083C7857C0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000020838C1D640>]}
+
+
+============================== 15:07:46.330278 | 613d1141-64a0-49a1-b8f5-7c07e506ceed ==============================
+[0m15:07:46.330278 [info ] [MainThread]: Running with dbt=1.11.2
+[0m15:07:46.330278 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'log_format': 'default', 'debug': 'False', 'fail_fast': 'False', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\10172919\\.dbt', 'indirect_selection': 'eager', 'use_colors': 'True', 'invocation_command': 'dbt init conforama_suisse', 'use_experimental_parser': 'False', 'log_path': 'logs'}
+[0m15:07:46.381748 [info ] [MainThread]: Creating dbt configuration folder at C:\Users\10172919\.dbt
+[0m15:07:46.387747 [debug] [MainThread]: Starter project path: C:\Users\10172919\Desktop\ecole\projet\data_eng_test-main\venv\Lib\site-packages\dbt\include\starter_project
+[0m15:07:46.539170 [info ] [MainThread]: 
+Your new dbt project "conforama_suisse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m15:07:46.539170 [info ] [MainThread]: Setting up your profile.
+[0m15:07:53.587500 [info ] [MainThread]: Profile conforama_suisse written to C:\Users\10172919\.dbt\profiles.yml using target's sample configuration. Once updated, you'll be able to start developing with dbt.
+[0m15:07:53.587500 [debug] [MainThread]: Command `dbt init` succeeded at 15:07:53.587500 after 7.47 seconds
+[0m15:07:53.587500 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002083CC80500>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002083CDD73B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002083C2F1B80>]}
+[0m15:07:53.587500 [debug] [MainThread]: Flushing usage events
+[0m15:07:54.420398 [debug] [MainThread]: An error was encountered while trying to flush usage events
